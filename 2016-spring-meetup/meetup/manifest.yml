@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: meetup
+  host: meetup-spring-developers
+  memory: 1G
+  buildpack: java_buildpack
+  path: target/meetup-1.4.2.RELEASE.jar
+  services:
+  - meetup-db

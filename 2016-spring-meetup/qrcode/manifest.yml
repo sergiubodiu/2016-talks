@@ -1,0 +1,8 @@
+
+---
+applications:
+- name: qrcode
+  host: qrcode-spring-developers
+  memory: 1G
+  buildpack: java_buildpack
+  path: target/qrcode-1.4.2.RELEASE.jar
